@@ -7,8 +7,8 @@ components such as Multiplexers, Program Counter, Instruction Decoder were built
 level diagram of the Nanoprocessor. 
 <br>
 For further details refer here. 
-[1](https://github.com/k-ranasinghe/Nanoprocessor-Design-VHDL/blob/9b81ea092f5efd99e5e1a7f0102a0ab3aaee1776/Lab%209-10%20_%20Microprocessor.pdf) 
-[2](https://github.com/k-ranasinghe/Nanoprocessor-Design-VHDL/blob/9b81ea092f5efd99e5e1a7f0102a0ab3aaee1776/lab%209-10%20Report.pdf)
+[Link1](https://github.com/k-ranasinghe/Nanoprocessor-Design-VHDL/blob/9b81ea092f5efd99e5e1a7f0102a0ab3aaee1776/Lab%209-10%20_%20Microprocessor.pdf), 
+[Link2](https://github.com/k-ranasinghe/Nanoprocessor-Design-VHDL/blob/9b81ea092f5efd99e5e1a7f0102a0ab3aaee1776/lab%209-10%20Report.pdf)
 <br><br>
 ![alt text](https://github.com/k-ranasinghe/Nanoprocessor-Design-VHDL/blob/main/images/processor-diagram.png?raw=true)
 <br>
