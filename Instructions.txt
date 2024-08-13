@@ -1,0 +1,59 @@
+INSTRUCTION SET
+
+MOVI R7,0		10_111_000_0000
+MOVI R1,3		10_001_000_0011
+MOVI R2,-1		10_010_000_1111		
+ADD R7,R1		00_111_001_0000
+ADD R1,R2		00_001_010_0000
+JZR R1,7		11_001_0000_111
+JZR R0,3		11_000_0000_011
+END
+
+
+7 SEGMENT DISPLAY MAPPING
+
+dec	bin		hex
+
+0	1000000		40
+1	1111001		79
+2	0100100		24
+3	0110000		30
+4	0011001		19
+5	0010010		12
+6	0000010		02
+7	1111000		78
+8	0000000		00
+9	0010000		10
+A	0001000		08
+B	0000011		03
+C	1000110		46
+D	0100001		21
+E	0000110		06
+F	0001110		0E
+
+
+
+RESET BUTTON IS SET TO PIN U18
+
+##Buttons
+set_property PACKAGE_PIN U18 [get_ports Res]
+	set_property IOSTANDARD LVCMOS33 [get_ports Res]
+
+
+
+EXPECTED BEHAVIOUR OF PROGRAM
+
+Initially the 7-segment display will output '0'.
+After a few seconds the 7-seg will output '3'.
+It takes few seconds because the clock is slowed to 2 second clock ticks.
+After few more seconds the 7-seg will display '5'.
+Few more seconds later the 7-seg will display '6'.
+After few more seconds the display will reset to '0'.
+
+Then this process will repeat.
+The same output as the 7-seg will be shown on the LEDs(LD0 - LD3) as well.
+During the simulation LD14 will light up a few times denoting zero output from add/subtract unit.
+Eventhough LD15 is connected to component it won't be used during this simulation because there won't be a negative overflow.
+
+When the reset button(U18) is pressed, the display will go back to '0' and continue from there on.
+		

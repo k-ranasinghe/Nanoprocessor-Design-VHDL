@@ -1,0 +1,25 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../lab 10.srcs/sources_1/new/Adder3Bit.vhd" \
+"../../../../lab 10.srcs/sources_1/new/AdderSubtracter.vhd" \
+"../../../../lab 10.srcs/sources_1/new/D_FF.vhd" \
+"../../../../lab 10.srcs/sources_1/new/D_FF_4bit.vhd" \
+"../../../../lab 10.srcs/sources_1/new/Decoder_2_to_4.vhd" \
+"../../../../lab 10.srcs/sources_1/new/Decoder_3_to_8.vhd" \
+"../../../../lab 10.srcs/sources_1/new/Display.vhd" \
+"../../../../lab 10.srcs/sources_1/new/FA.vhd" \
+"../../../../lab 10.srcs/sources_1/new/HA.vhd" \
+"../../../../lab 10.srcs/sources_1/new/InstructionDecoder.vhd" \
+"../../../../lab 10.srcs/sources_1/new/LUT.vhd" \
+"../../../../lab 10.srcs/sources_1/new/MicroProcessor.vhd" \
+"../../../../lab 10.srcs/sources_1/new/Mux_2way_3bit.vhd" \
+"../../../../lab 10.srcs/sources_1/new/Mux_2way_4bit.vhd" \
+"../../../../lab 10.srcs/sources_1/new/Mux_8way_4bit.vhd" \
+"../../../../lab 10.srcs/sources_1/new/ProgramCounter.vhd" \
+"../../../../lab 10.srcs/sources_1/new/ProgramROM.vhd" \
+"../../../../lab 10.srcs/sources_1/new/RegisterBank.vhd" \
+"../../../../lab 10.srcs/sources_1/new/Slow_Clk.vhd" \
+"../../../../lab 10.srcs/sim_1/new/MicroProcessorSim.vhd" \
+
+# Do not sort compile order
+nosort
