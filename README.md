@@ -1,6 +1,6 @@
 # Overview
 
-This was an academic project done as part of the Semester 2 Computer Organization and Digital Design Module. 
+This is an academic project done as part of the Semester 2 Computer Organization and Digital Design Module. 
 For the project a 4-bit Nanoprocessor was designed with the capabilites of carrying out basic arithmetic operations
 and showing the output on a 7-Segment Display. It contains a 72-bit Program ROM and a 32-bit Register Bank. Other 
 components such as Multiplexers, Program Counter, Instruction Decoder were built as well. Given below is a high 
