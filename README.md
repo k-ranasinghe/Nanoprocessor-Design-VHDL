@@ -1,6 +1,6 @@
 ## Overview
 
-This is an academic project completed as part of the Semester 2 Computer Organization and Digital Design Module at the University of Moratuwa. The project involved designing a 4-bit Nanoprocessor capable of executing basic arithmetic operations and displaying the output on a 7-Segment Display. Key components of the processor include a 72-bit Program ROM, a 32-bit Register Bank, Multiplexers, a Program Counter, and an Instruction Decoder. Below is a high-level diagram of the Nanoprocessor:
+This is an academic project completed as part of the Semester 2 Computer Organization and Digital Design Module. The project involved designing a 4-bit Nanoprocessor capable of executing basic arithmetic operations and displaying the output on a 7-Segment Display. Key components of the processor include a 72-bit Program ROM, a 32-bit Register Bank, Multiplexers, a Program Counter, and an Instruction Decoder. Below is a high-level diagram of the Nanoprocessor:
 
 ![Nanoprocessor Diagram](https://github.com/k-ranasinghe/Nanoprocessor-Design-VHDL/blob/main/images/processor-diagram.png?raw=true)
 
